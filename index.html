@@ -185,10 +185,7 @@
   var fireballSize = 22;
 
   function getFireballSpeed(isWindFromLeft) {
-    if (isWindFromLeft) {
-      return 5;
-    }
-    return 2;
+    isWindFromLeft ? 5 : 2;
   }
 
   var wizardWidth = 70;
